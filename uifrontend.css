@@ -1,0 +1,36 @@
+body{
+    background: #03a233;
+}
+h2 {
+    font-family :Barlow;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+main{
+    font-family :Barlow;
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+table{
+    margin:50px auto;
+}
+
+table, th, td{
+    border-collapse:collapse;
+    border: 1px solid white;
+}
+
+th, td{
+    padding: 5px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOONA ISLAND RESIDENCE REGISTRY</title>
+    <link rel="stylesheet" href="uifrontend.css">
+</head>
+<body>
+    <h2>LOONA ISLAND RESIDENCE REGISTRY</h2>
+    <main>
+        <div id="div1">
+        <p id="p1">
+            <input type="text" id="addBox">
+            <button id="add_name_btn">Add</button>
+        </p>
+        <p id="p2">
+            <input type="text" id="searchBox">
+            <button id="search_btn">Search</button>
+            <form id="searchSelect">
+                <select name="option_select" >
+                    <option value="resident_id">ResidentID</option>
+                    <option value="resident_name">ResidentName</option>
+                    <option value="type_id">TypeID</option>
+                    <option value="district_id">DistrictID</option>
+                </select></form>
+        </p>
+
+        <p id="p3">
+        <table id="table">
+            <thead>
+                <th>ResidentID</th>
+                <th>ResidentName</th>
+                <th>TypeID</th>
+                <th>DistrictID</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody>
+            <section hidden id="update-row">
+                <label>Name:</label>
+                <input type="text" id="update-data-input">
+                <form id="UpdateSelect">
+                    <select name="option_select" >
+                        <option value="resident_id">ResidentID</option>
+                        <option value="resident_name">ResidentName</option>
+                        <option value="type_id">TypeID</option>
+                        <option value="district_id">DistrictID</option>
+                    </select></form>
+                <button id="update-row-btn">Update</button>
+            </section>
+            </tbody>
+        </table>
+            </p>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
